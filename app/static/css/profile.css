@@ -3,7 +3,7 @@ body{
   
 }
 
-#profileTableID /* this is the link in the profile.html file that has the tag "id=profileTableID*/
+#profileTableID 
 {
   margin-top:-220px;
   margin-left:300px;
@@ -20,8 +20,7 @@ body{
   background:#FFFFFF;
   border:2px solid black;
   background:#FFFFFF;
-  width:400px;
-  height:40px;
+  
   }
 
 #profilePic{
