@@ -1,0 +1,35 @@
+body{
+  background-color: #FFFFFF;
+  
+}
+
+#profileTableID /* this is the link in the profile.html file that has the tag "id=profileTableID*/
+{
+  margin-top:-220px;
+  margin-left:300px;
+  margin-bottom: 100px;
+  position: relative;
+}
+.profile{
+      background:#FFFFFF;
+      border:2px solid black;
+      color: grey;
+}
+
+#timeinfo{
+  background:#FFFFFF;
+  border:2px solid black;
+  background:#FFFFFF;
+  width:400px;
+  height:40px;
+  }
+
+#profilePic{
+  float:left;
+}
+
+
+#name{
+  background:#FFFFFF;
+  border:2px solid black;
+}

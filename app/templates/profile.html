@@ -1,26 +1,42 @@
 {% extends "base.html" %}
 
-{% block content %}
+{% block main %}   
 
 <!DOCTYPE html>
-<html lang="en">
+<html >
 <head>
     <title>Profile Page</title>
+    <link rel="stylesheet" type="text/css" href="/static/css/profile.css">
     
 <!--<img src="coconuts-health-benefits.jpg" href="/static/image" style="width:304px;height:228px;"/>-->
 </head>
+
+
+<header> <h1 class="page-header"> Profile</h1> </header>
+
 <body>
     <div>
-        <h1>Profile</h1>
-        <br>
+       
         <img src="{{url_for('static', filename= 'image/coco.jpg')}}" width="300" height="200" >
         <br>
-        <br>
-    <p> Taniska Nairne</p>
-    <table>
+    </div>
+    
+    <table id = "profileTableID">    
+    <tbody>
+        
+        <tr>
+             <td>   
+                      <div id ='name'>
+                          <h1>  Taniska Nairne</h1>
+                      </div>
+                  </td>
+              </tr>
+   
+    
         <tr>
             <td>Todays Date is: {{timr}} </td>
         </tr>
+        
         <tr>
             <td>Username: Nishka </td>
         </tr>
@@ -34,12 +50,16 @@
             <td>Gender: Female</td>
         </tr>
         
-    </table>
-    <p> Coconut water is the ultimate thirst quencher and offers a tasty alternative to water. 
-    This pure liquid is packed with nutrients that yield an array of health benefits.
+   <tr>
+       <td>
+            <p> Coconut water is the ultimate thirst quencher and offers a tasty alternative to water. 
+                This pure liquid is packed with nutrients that yield an array of health benefits.
     </p>
-    
-    </div>
+       </td>
+   </tr>
+   
+     </table>
+   
 </body>
 </html>
 
